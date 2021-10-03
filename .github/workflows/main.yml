@@ -25,7 +25,7 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags: 
+          tags: |
             raulc27/rotten-potatoes:latest
             raulc27/rotten-potatoes:${{ github.run_number }}
         
